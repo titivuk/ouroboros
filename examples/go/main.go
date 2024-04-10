@@ -6,6 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("I am started!", os.Args)
+	fmt.Println("I am started", os.Args)
 }
-

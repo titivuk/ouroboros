@@ -1,4 +1,4 @@
-module github.com/titivuk/resurrector
+module github.com/titivuk/ouroboros
 
 go 1.21.4
 

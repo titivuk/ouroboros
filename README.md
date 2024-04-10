@@ -1,9 +1,16 @@
+## Build
+
+
+```
+env GOOS=linux GOARCH=amd64 go build -o ourbrs
+```
+
 ## Usage
 
 ```
-resurrector go run main.go
-resurrector node index.js
-resurrector npx ts-node index.ts
+ourbrs go run main.go
+ourbrs node index.js
+ourbrs npx ts-node index.ts
 ```
 
 See examples folder for sample programs
@@ -15,4 +22,4 @@ Note: the implementation is super basic and not finished so only exact paths are
 
 ## Dependencies
 
-It requires Inotify to work
+It requires `Inotify` to work
