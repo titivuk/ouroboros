@@ -7,15 +7,15 @@ go test -v ./...
 ## Build
 
 ```
-env GOOS=linux GOARCH=amd64 go build -o ourbrs
+env GOOS=linux GOARCH=amd64 go build -o orb
 ```
 
 ## Usage
 
 ```
-ourbrs go run main.go
-ourbrs node index.js
-ourbrs npx ts-node index.ts
+orb go run main.go
+orb node index.js
+orb npx ts-node index.ts
 ```
 
 See examples folder for sample programs
